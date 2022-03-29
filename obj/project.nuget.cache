@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "957NdxuMr+Wcgi5Cc9JV/3LAokIYKR5XwpP3KnNZLMSf4MzxwTEOa/e5bqjA8KiPocZVtgI574l8u7i8DC+jIw==",
+  "success": true,
+  "projectFilePath": "C:\\Santillana\\SantillanaCustomLookup\\SantillanaCustomLookup.pcfproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net462\\1.0.0\\microsoft.netframework.referenceassemblies.net462.1.0.0.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.12.2\\microsoft.powerapps.msbuild.pcf.1.12.2.nupkg.sha512"
+  ],
+  "logs": []
+}

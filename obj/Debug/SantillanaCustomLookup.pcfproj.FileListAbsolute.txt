@@ -1,0 +1,2 @@
+C:\Santillana\SantillanaCustomLookup\obj\Debug\SantillanaCustomLookup.pcfprojAssemblyReference.cache
+C:\Santillana\SantillanaCustomLookup\obj\Debug\SantillanaCustomLookup.pcfproj.CoreCompileInputs.cache

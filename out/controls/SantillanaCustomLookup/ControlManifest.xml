@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+  <control namespace="Santillana" constructor="SantillanaCustomLookup" version="2.0.1" display-name-key="SantillanaCustomLookup" description-key="SantillanaCustomLookup description" control-type="standard" api-version="1.3.4">
+    <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="Lookup.Simple" usage="bound" required="true"/>
+    <property name="entityLogicalName" display-name-key="Nome lógico entidade" description-key="Nome lógico da entidade que será realizada a consulta dos registros" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="entityName" display-name-key="Nome entidade" description-key="Nome lógico da entidade que será realizada a consulta dos registros" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="formCreate" display-name-key="Form Criação" description-key="ID referente ao formulário de criação que será utilizado" of-type="SingleLine.Text" usage="input" required="false"/>
+    <property name="formView" display-name-key="Form visualização" description-key="ID referente ao formulário de visualização que será utilizado" of-type="SingleLine.Text" usage="input" required="false"/>
+    <property name="openFormCreate" display-name-key="Tipo formulário create" description-key="Tipos: page, modal, side" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="openFormView" display-name-key="Tipo formulário visualização" description-key="Tipos: page, modal, side" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="fetchXml" display-name-key="FetchXml" description-key="Fetch utilizado para realizar a busca" of-type="SingleLine.TextArea" usage="input" required="true"/>
+    <property name="enableCreate" display-name-key="Habilitar botão de criação" description-key="0 - para habilitar o botão, 1 - desabilitar botão" of-type="Whole.None" usage="input" required="true"/>
+    <property name="enableSelectedValueLink" display-name-key="Habilitar Link" description-key="0 - para habilitar o botão, 1 - desabilitar botão" of-type="Whole.None" usage="input" required="true"/>
+    <property name="primaryField" display-name-key="Primeiro campo de exibição" description-key="Campo principal a ser exibido é recomendado que sejá utilizado o campo Name do registro" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="secondaryField" display-name-key="Segundo campo de exibição" description-key="Campo de informação adicional a ser exibido" of-type="SingleLine.Text" usage="input" required="false"/>
+    <resources>
+      <code path="bundle.js" order="1"/>
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true"/>
+    </feature-usage>
+    <built-by name="pac" version="1.12.2"/>
+  </control>
+</manifest>
